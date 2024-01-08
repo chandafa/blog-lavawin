@@ -8,7 +8,84 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Home | Blog Chan</title>
     <link href="https://www.logolynx.com/images/logolynx/f4/f40d4ad97b9cb450abc35af8e7359f40.png" rel="icon" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
+
+<style>
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    .light {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.dark {
+    background-color: rgb(17, 24, 39);
+    color: rgb(255, 255, 255);
+}
+
+header nav {
+    background-color: rgb(255, 255, 255);
+}
+
+.button {
+    width: 110px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    background-color: rgb(23, 56, 128);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.116);
+    padding-left: 8px;
+    transition-duration: 0.5s;
+    border: 1px solid rgb(158, 157, 157);
+}
+
+.svgIcon {
+    height: 25px;
+    transition-duration: 1.5s;
+}
+
+.bell path {
+    fill: rgb(233, 233, 233);
+}
+
+.button:hover {
+    background-color: rgb(68, 0, 255);
+    transition-duration: 0.5s;
+}
+
+.button:active {
+    transform: scale(0.97);
+    transition-duration: 0.2s;
+}
+
+.button:hover .svgIcon {
+    transform: rotate(250deg);
+    transition-duration: 1.5s;
+}
+
+#course .course:hover {
+    box-shadow: 0px 0px 10px blueviolet;
+}
+
+</style>
 
 <body>
     <!-- Navbar -->
@@ -70,17 +147,19 @@
                             </li>
                             <button id="theme-toggle" type="button"
                                 class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5">
-                                <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor"
+                                {{-- <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor"
                                     viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z">
                                     </path>
-                                </svg>
-                                <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor"
+                                </svg> --}}
+                                <i id="theme-toggle-dark-icon" class="ri-moon-fill hidden w-5 h-5"></i>
+                                <i id="theme-toggle-light-icon" class="ri-sun-fill hidden w-5 h-5"></i>
+                                {{-- <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor"
                                     viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
                                         fill-rule="evenodd" clip-rule="evenodd"></path>
-                                </svg>
+                                </svg> --}}
                             </button>
                         </ul>
                     </div>
@@ -90,7 +169,7 @@
     </div>
 
     <!-- Hero section -->
-    <div class="relative isolate px-6 pt-14 lg:px-8 ">
+    <div class="relative isolate h-dvh px-6 pt-14 lg:px-8 lg:h-1/2">
         <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
             aria-hidden="true">
             <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
@@ -280,7 +359,7 @@
                                 alt="Avatar" />
                             <div class="flex flex-col mx-2">
                                 <a href="" class="font-semibold  hover:underline">
-                                    Fajrian Aidil Pratama
+                                    Candra Kirana
                                 </a>
                                 <span class="mx-1 text-xs ">28 Sep 2020</span>
                             </div>
@@ -360,7 +439,7 @@
                                 alt="Avatar" />
                             <div class="flex flex-col mx-2">
                                 <a href="" class="font-semibold  hover:underline">
-                                    Fajrian Aidil Pratama
+                                    Candra Kirana
                                 </a>
                                 <span class="mx-1 text-xs ">28 Sep 2020</span>
                             </div>
@@ -440,7 +519,7 @@
                                 alt="Avatar" />
                             <div class="flex flex-col mx-2">
                                 <a href="" class="font-semibold  hover:underline">
-                                    Fajrian Aidil Pratama
+                                    Candra Kirana
                                 </a>
                                 <span class="mx-1 text-xs ">28 Sep 2020</span>
                             </div>
@@ -520,7 +599,7 @@
                                 alt="Avatar" />
                             <div class="flex flex-col mx-2">
                                 <a href="" class="font-semibold  hover:underline">
-                                    Fajrian Aidil Pratama
+                                    Candra Kirana
                                 </a>
                                 <span class="mx-1 text-xs ">28 Sep 2020</span>
                             </div>
@@ -600,7 +679,7 @@
                                 alt="Avatar" />
                             <div class="flex flex-col mx-2">
                                 <a href="" class="font-semibold  hover:underline">
-                                    Fajrian Aidil Pratama
+                                    Candra Kirana
                                 </a>
                                 <span class="mx-1 text-xs ">28 Sep 2020</span>
                             </div>
@@ -680,7 +759,7 @@
                                 alt="Avatar" />
                             <div class="flex flex-col mx-2">
                                 <a href="" class="font-semibold  hover:underline">
-                                    Fajrian Aidil Pratama
+                                    Candra Kirana
                                 </a>
                                 <span class="mx-1 text-xs ">28 Sep 2020</span>
                             </div>
