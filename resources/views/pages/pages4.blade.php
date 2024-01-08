@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite(['resources/css/app.css','resources/js/app.js'])
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Pages 4</title>
+    <title>Page 4 | Blog Chan</title>
+    <link href="https://www.logolynx.com/images/logolynx/f4/f40d4ad97b9cb450abc35af8e7359f40.png" rel="icon" />
 </head>
 
 <body>
@@ -18,10 +19,10 @@
             <nav
                 class="bg-dark dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
                 <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
                         <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo">
                         <span
-                            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+                            class="self-center text-2xl font-bold whitespace-nowrap dark:text-white">Blog CK</span>
                     </a>
                     <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
 
@@ -47,7 +48,7 @@
                         <ul
                             class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                             <li>
-                                <a href="#"
+                                <a href="/"
                                     class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
                                     aria-current="page">Home</a>
                             </li>
@@ -133,19 +134,80 @@
         </div>
     </div>
 
+
+ <!-- features -->
+    <div class="dark:bg-gray-900 py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+        <div class="lg:pr-4">
+          <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
+            <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="https://images.unsplash.com/photo-1630569267625-157f8f9d1a7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2669&q=80" alt="">
+            <div class="absolute inset-0 bg-gray-900 mix-blend-multiply"></div>
+            <div class="absolute left-1/2 top-1/2 -ml-16 -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl" aria-hidden="true">
+              <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-40" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+            </div>
+            <figure class="relative isolate">
+              <svg viewBox="0 0 162 128" fill="none" aria-hidden="true" class="absolute -left-2 -top-4 -z-10 h-32 stroke-white/20">
+                <path id="0ef284b8-28c2-426e-9442-8655d393522e" d="M65.5697 118.507L65.8918 118.89C68.9503 116.314 71.367 113.253 73.1386 109.71C74.9162 106.155 75.8027 102.28 75.8027 98.0919C75.8027 94.237 75.16 90.6155 73.8708 87.2314C72.5851 83.8565 70.8137 80.9533 68.553 78.5292C66.4529 76.1079 63.9476 74.2482 61.0407 72.9536C58.2795 71.4949 55.276 70.767 52.0386 70.767C48.9935 70.767 46.4686 71.1668 44.4872 71.9924L44.4799 71.9955L44.4726 71.9988C42.7101 72.7999 41.1035 73.6831 39.6544 74.6492C38.2407 75.5916 36.8279 76.455 35.4159 77.2394L35.4047 77.2457L35.3938 77.2525C34.2318 77.9787 32.6713 78.3634 30.6736 78.3634C29.0405 78.3634 27.5131 77.2868 26.1274 74.8257C24.7483 72.2185 24.0519 69.2166 24.0519 65.8071C24.0519 60.0311 25.3782 54.4081 28.0373 48.9335C30.703 43.4454 34.3114 38.345 38.8667 33.6325C43.5812 28.761 49.0045 24.5159 55.1389 20.8979C60.1667 18.0071 65.4966 15.6179 71.1291 13.7305C73.8626 12.8145 75.8027 10.2968 75.8027 7.38572C75.8027 3.6497 72.6341 0.62247 68.8814 1.1527C61.1635 2.2432 53.7398 4.41426 46.6119 7.66522C37.5369 11.6459 29.5729 17.0612 22.7236 23.9105C16.0322 30.6019 10.618 38.4859 6.47981 47.558L6.47976 47.558L6.47682 47.5647C2.4901 56.6544 0.5 66.6148 0.5 77.4391C0.5 84.2996 1.61702 90.7679 3.85425 96.8404L3.8558 96.8445C6.08991 102.749 9.12394 108.02 12.959 112.654L12.959 112.654L12.9646 112.661C16.8027 117.138 21.2829 120.739 26.4034 123.459L26.4033 123.459L26.4144 123.465C31.5505 126.033 37.0873 127.316 43.0178 127.316C47.5035 127.316 51.6783 126.595 55.5376 125.148L55.5376 125.148L55.5477 125.144C59.5516 123.542 63.0052 121.456 65.9019 118.881L65.5697 118.507Z" />
+                <use href="#0ef284b8-28c2-426e-9442-8655d393522e" x="86" />
+              </svg>
+              <blockquote class="mt-6 text-xl font-semibold leading-8 text-white">
+                <p>“"What happens is not as important as how you react to what happens." "The journey of a thousand miles begins with one step." "The only true wisdom is in knowing you know nothing." "Just as treasures are uncovered from the earth, so virtue appears from good deeds, and wisdom appears from a pure and peaceful mind..”</p>
+              </blockquote>
+              <figcaption class="mt-6 text-sm leading-6 text-gray-300"><strong class="font-semibold text-white">Shehab Najib,</strong> ceo of ISREN</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div>
+          <div class="text-base leading-7 text-gray-700 lg:max-w-lg">
+            <p class="text-base font-semibold leading-7 text-yellow-400">wisdom values</p>
+            <h1 class="mt-2 text-3xl font-bold tracking-tight  sm:text-4xl dark:text-white">Peaceful minds</h1>
+            <div class="max-w-xl dark:text-white">
+              <p class="mt-6">You won't ever have a peaceful mind unless you have a peace ful life and equal times you have a time with your religion then time for fun then time for work and study.</p>
+              <p class="mt-8">You want to have a peaceful day try ignoring problems that are blamed on you but you are sure you didn't do the mistake.</p>
+              <p class="mt-8">Try dividing your life days into equal times and do every thing on it's time.</p>
+            </div>
+          </div>
+          <dl class="mt-10 grid grid-cols-2 gap-8 border-t border-gray-900/10 pt-10 sm:grid-cols-4">
+            <div>
+              <dt class="text-sm font-semibold leading-6 dark:text-white">Founded</dt>
+              <dd class="mt-2 text-3xl font-bold leading-10 tracking-tight dark:text-white">end of 2023</dd>
+            </div>
+            <div>
+              <dt class="text-sm font-semibold leading-6 dark:text-white">Employees</dt>
+              <dd class="mt-2 text-3xl font-bold leading-10 tracking-tight dark:text-white">uncounted</dd>
+            </div>
+            <div>
+              <dt class="text-sm font-semibold leading-6 dark:text-white">Countries</dt>
+              <dd class="mt-2 text-3xl font-bold leading-10 tracking-tight dark:text-white">2</dd>
+            </div>
+            <div>
+              <dt class="text-sm font-semibold leading-6 dark:text-white">Raised</dt>
+              <dd class="mt-2 text-3xl font-bold leading-10 tracking-tight dark:text-white">$1.5K</dd>
+            </div>
+          </dl>
+          <div class="mt-10 flex">
+            <a href="#" class="text-base font-semibold leading-7 text-yellow-500">Learn more about our company <span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
     <!-- Blog section 2 -->
     <!-- component -->
     <!-- This is an example component -->
-    <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+    <div class="mx-auto max-w-screen-sm text-center lg:mb-16">
         <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-satu">Our
             Blog</h2>
-        <p class="font-light  sm:text-xl">We use an agile approach to test
+        <p class="font-light px-10 sm:text-xl">We use an agile approach to test
             assumptions and connect with the needs of your audience early and often.</p>
     </div>
 
-    <section class="flex flex-row flex-wrap mx-auto px-24">
+    <section class="flex flex-row flex-wrap mx-auto px-10" >
         <!-- Card Component -->
-        <div class="transition-all duration-150 flex w-full px-4 py-6 md:w-1/2 lg:w-1/3">
+        <div class="transition-all duration-150 flex w-full py-6 md:w-1/2 lg:w-1/3 lg:px-4 md:px-4">
             <div
                 class="flex flex-col items-stretch min-h-full pb-4 mb-6 transition-all duration-150 dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl">
                 <div class="md:flex-shrink-0">
@@ -225,7 +287,7 @@
             </div>
         </div>
         <!-- Card Component -->
-        <div class="transition-all duration-150 flex w-full px-4 py-6 md:w-1/2 lg:w-1/3">
+        <div class="transition-all duration-150 flex w-full py-6 md:w-1/2 lg:w-1/3 lg:px-4 md:px-4">
             <div
                 class="flex flex-col items-stretch min-h-full pb-4 mb-6 transition-all duration-150 dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl">
                 <div class="md:flex-shrink-0">
@@ -305,7 +367,7 @@
             </div>
         </div>
         <!-- Card Component -->
-        <div class="transition-all duration-150 flex w-full px-4 py-6 md:w-1/2 lg:w-1/3">
+        <div class="transition-all duration-150 flex w-full py-6 md:w-1/2 lg:w-1/3 lg:px-4 md:px-4">
             <div
                 class="flex flex-col items-stretch min-h-full pb-4 mb-6 transition-all duration-150 dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl">
                 <div class="md:flex-shrink-0">
@@ -385,7 +447,7 @@
             </div>
         </div>
         <!-- Card Component -->
-        <div class="transition-all duration-150 flex w-full px-4 py-6 md:w-1/2 lg:w-1/3">
+        <div class="transition-all duration-150 flex w-full py-6 md:w-1/2 lg:w-1/3 lg:px-4 md:px-4">
             <div
                 class="flex flex-col items-stretch min-h-full pb-4 mb-6 transition-all duration-150 dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl">
                 <div class="md:flex-shrink-0">
@@ -465,7 +527,7 @@
             </div>
         </div>
         <!-- Card Component -->
-        <div class="transition-all duration-150 flex w-full px-4 py-6 md:w-1/2 lg:w-1/3">
+        <div class="transition-all duration-150 flex w-full py-6 md:w-1/2 lg:w-1/3 lg:px-4 md:px-4">
             <div
                 class="flex flex-col items-stretch min-h-full pb-4 mb-6 transition-all duration-150 dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl">
                 <div class="md:flex-shrink-0">
@@ -545,7 +607,7 @@
             </div>
         </div>
         <!-- Card Component -->
-        <div class="transition-all duration-150 flex w-full px-4 py-6 md:w-1/2 lg:w-1/3">
+        <div class="transition-all duration-150 flex w-full py-6 md:w-1/2 lg:w-1/3 lg:px-4 md:px-4">
             <div
                 class="flex flex-col items-stretch min-h-full pb-4 mb-6 transition-all duration-150 dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl">
                 <div class="md:flex-shrink-0">
@@ -624,202 +686,216 @@
                 </section>
             </div>
         </div>
-
 
     </section>
+    <nav aria-label="Page navigation example" class="mx-auto max-w-screen-sm flex justify-center mt-8 mb-10">
+        <ul class="inline-flex -space-x-px text-sm">
+          <li>
+            <a href="/" class="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Previous</a>
+          </li>
+          <li>
+            <a href="<?= url('pages1'); ?>" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">1</a>
+          </li>
+          <li>
+            <a href="<?= url('pages2'); ?>" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">2</a>
+          </li>
+          <li>
+            <a href="<?= url('pages3'); ?>" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">3</a>
+          </li>
+
+          <li>
+            <a href="<?= url('pages4'); ?>" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">4</a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">5</a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Next</a>
+          </li>
+        </ul>
+      </nav>
+
+
+
+
+
+
 
     <!-- Team Section -->
-    <section class="bg-dark dark:bg-gray-900" id="blog">
-        <div class=" py-8 px-28 mx-auto max-w-screen-xl lg:py-16 lg:px-24">
-            <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-                <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-satu">Our
-                    Team</h2>
-                <p class="font-light  sm:text-xl">We use an agile approach to test
-                    assumptions and connect with the needs of your audience early and often.</p>
-            </div>
-            <div class="grid gap-8 lg:grid-cols-2 ">
-                <article
-                    class="p-6 bg-dark  dark:bg-gray-800 rounded-lg border border-gray-200 shadow-md  dark:border-gray-700">
-                    <div class="flex justify-between items-center mb-5 text-gray-500">
-                        <span
-                            class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
-                            <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z">
-                                </path>
-                            </svg>
-                            Tutorial
-                        </span>
-                        <span class="text-sm">14 days ago</span>
-                    </div>
-                    <h2 class="mb-2 text-2xl font-bold tracking-tight  dark:text-white"><a href="#">How to
-                            quickly deploy a static website</a></h2>
-                    <p class="mb-5 font-light  dark:text-white">Static websites are now used to
-                        bootstrap lots of websites and are becoming the basis for a variety of tools that even influence
-                        both web designers and developers influence both web designers and developers.</p>
-                    <div class="flex justify-between items-center">
-                        <div class="flex items-center space-x-4">
-                            <img class="w-7 h-7 rounded-full"
-                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
-                                alt="Jese Leos avatar" />
-                            <span class="font-medium dark:text-white">
-                                Jese Leos
-                            </span>
-                        </div>
-                        <a href="#"
-                            class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
-                            Read more
-                            <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-                <article
-                    class="p-6 bg-dark rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-                    <div class="flex justify-between items-center mb-5 text-gray-500">
-                        <span
-                            class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
-                            <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z"
-                                    clip-rule="evenodd"></path>
-                                <path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path>
-                            </svg>
-                            Article
-                        </span>
-                        <span class="text-sm">14 days ago</span>
-                    </div>
-                    <h2 class="mb-2 text-2xl font-bold tracking-tight  dark:text-white"><a href="#">Our
-                            first project with React</a></h2>
-                    <p class="mb-5 font-light  dark:text-white">Static websites are now used to
-                        bootstrap lots of websites and are becoming the basis for a variety of tools that even influence
-                        both web designers and developers influence both web designers and developers.</p>
-                    <div class="flex justify-between items-center">
-                        <div class="flex items-center space-x-4">
-                            <img class="w-7 h-7 rounded-full"
-                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
-                                alt="Bonnie Green avatar" />
-                            <span class="font-medium dark:text-white">
-                                Bonnie Green
-                            </span>
-                        </div>
-                        <a href="#"
-                            class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
-                            Read more
-                            <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-                <article
-                    class="p-6 bg-dark dark:bg-gray-800 rounded-lg border border-gray-200 shadow-md  dark:border-gray-700">
-                    <div class="flex justify-between items-center mb-5 text-gray-500">
-                        <span
-                            class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
-                            <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z">
-                                </path>
-                            </svg>
-                            Tutorial
-                        </span>
-                        <span class="text-sm">14 days ago</span>
-                    </div>
-                    <h2 class="mb-2 text-2xl font-bold tracking-tight dark:text-white"><a href="#">How
-                            to
-                            quickly deploy a static website</a></h2>
-                    <p class="mb-5 font-light  dark:text-white">Static websites are now used to
-                        bootstrap lots of websites and are becoming the basis for a variety of tools that even influence
-                        both web designers and developers influence both web designers and developers.</p>
-                    <div class="flex justify-between items-center">
-                        <div class="flex items-center space-x-4">
-                            <img class="w-7 h-7 rounded-full"
-                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
-                                alt="Jese Leos avatar" />
-                            <span class="font-medium dark:text-white">
-                                Jese Leos
-                            </span>
-                        </div>
-                        <a href="#"
-                            class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
-                            Read more
-                            <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-                <article
-                    class="p-6 bg-dark rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-                    <div class="flex justify-between items-center mb-5 text-gray-500">
-                        <span
-                            class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
-                            <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z"
-                                    clip-rule="evenodd"></path>
-                                <path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path>
-                            </svg>
-                            Article
-                        </span>
-                        <span class="text-sm">14 days ago</span>
-                    </div>
-                    <h2 class="mb-2 text-2xl font-bold tracking-tight  dark:text-white"><a href="#">Our
-                            first project with React</a></h2>
-                    <p class="mb-5 font-light  dark:text-white">Static websites are now used to
-                        bootstrap lots of websites and are becoming the basis for a variety of tools that even influence
-                        both web designers and developers influence both web designers and developers.</p>
-                    <div class="flex justify-between items-center">
-                        <div class="flex items-center space-x-4">
-                            <img class="w-7 h-7 rounded-full"
-                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
-                                alt="Bonnie Green avatar" />
-                            <span class="font-medium dark:text-white">
-                                Bonnie Green
-                            </span>
-                        </div>
-                        <a href="#"
-                            class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
-                            Read more
-                            <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-            </div>
+
+
+    <div class="flex flex-col justify-center items-center py-40">
+        <div class="mx-auto max-w-screen-sm text-center lg:mb-16">
+            <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-satu">Our
+                Statistik</h2>
+            <p class="font-light px-10 sm:text-xl">We use an agile approach to test
+                assumptions and connect with the needs of your audience early and often.</p>
         </div>
-    </section>
+        <div class="min-w-[375px] md:min-w-[700px] xl:min-w-[800px] mt-3 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 3xl:grid-cols-6">
+            <div class="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200  bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
+                <div class="ml-[18px] flex h-[90px] w-auto flex-row items-center">
+                <div class="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
+                    <span class="flex items-center text-brand-500 dark:text-white">
+                    <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        class="h-7 w-7"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path d="M4 9h4v11H4zM16 13h4v7h-4zM10 4h4v16h-4z"></path>
+                    </svg>
+                    </span>
+                </div>
+                </div>
+                <div class="h-50 ml-4 flex w-auto flex-col justify-center">
+                <p class="font-dm text-sm font-medium text-gray-600">Earnings</p>
+                <h4 class="text-xl font-bold text-navy-700 dark:text-white">$340.5</h4>
+                </div>
+            </div>
+            <div class="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200  bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
+                <div class="ml-[18px] flex h-[90px] w-auto flex-row items-center">
+                <div class="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
+                    <span class="flex items-center text-brand-500 dark:text-white">
+                    <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        class="h-6 w-6"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path d="M298.39 248a4 4 0 002.86-6.8l-78.4-79.72a4 4 0 00-6.85 2.81V236a12 12 0 0012 12z"></path>
+                        <path d="M197 267a43.67 43.67 0 01-13-31v-92h-72a64.19 64.19 0 00-64 64v224a64 64 0 0064 64h144a64 64 0 0064-64V280h-92a43.61 43.61 0 01-31-13zm175-147h70.39a4 4 0 002.86-6.8l-78.4-79.72a4 4 0 00-6.85 2.81V108a12 12 0 0012 12z"></path>
+                        <path d="M372 152a44.34 44.34 0 01-44-44V16H220a60.07 60.07 0 00-60 60v36h42.12A40.81 40.81 0 01231 124.14l109.16 111a41.11 41.11 0 0111.83 29V400h53.05c32.51 0 58.95-26.92 58.95-60V152z"></path>
+                    </svg>
+                    </span>
+                </div>
+                </div>
+                <div class="h-50 ml-4 flex w-auto flex-col justify-center">
+                <p class="font-dm text-sm font-medium text-gray-600">Spend this month</p>
+                <h4 class="text-xl font-bold text-navy-700 dark:text-white">$642.39</h4>
+                </div>
+            </div>
+            <div class="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200  bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
+                <div class="ml-[18px] flex h-[90px] w-auto flex-row items-center">
+                <div class="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
+                    <span class="flex items-center text-brand-500 dark:text-white">
+                    <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        class="h-7 w-7"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path d="M4 9h4v11H4zM16 13h4v7h-4zM10 4h4v16h-4z"></path>
+                    </svg>
+                    </span>
+                </div>
+                </div>
+                <div class="h-50 ml-4 flex w-auto flex-col justify-center">
+                <p class="font-dm text-sm font-medium text-gray-600">Sales</p>
+                <h4 class="text-xl font-bold text-navy-700 dark:text-white">$574.34</h4>
+                </div>
+            </div>
+            <div class="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200  bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
+                <div class="ml-[18px] flex h-[90px] w-auto flex-row items-center">
+                <div class="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
+                    <span class="flex items-center text-brand-500 dark:text-white">
+                    <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        class="h-6 w-6"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"></path>
+                    </svg>
+                    </span>
+                </div>
+                </div>
+                <div class="h-50 ml-4 flex w-auto flex-col justify-center">
+                <p class="font-dm text-sm font-medium text-gray-600">Your Balance</p>
+                <h4 class="text-xl font-bold text-navy-700 dark:text-white">$1,000</h4>
+                </div>
+            </div>
+            <div class="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200  bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
+                <div class="ml-[18px] flex h-[90px] w-auto flex-row items-center">
+                <div class="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
+                    <span class="flex items-center text-brand-500 dark:text-white">
+                    <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        class="h-7 w-7"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path d="M4 9h4v11H4zM16 13h4v7h-4zM10 4h4v16h-4z"></path>
+                    </svg>
+                    </span>
+                </div>
+                </div>
+                <div class="h-50 ml-4 flex w-auto flex-col justify-center">
+                <p class="font-dm text-sm font-medium text-gray-600">New Tasks</p>
+                <h4 class="text-xl font-bold text-navy-700 dark:text-white">145</h4>
+                </div>
+            </div>
+            <div class="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200  bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
+                <div class="ml-[18px] flex h-[90px] w-auto flex-row items-center">
+                <div class="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
+                    <span class="flex items-center text-brand-500 dark:text-white">
+                    <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        class="h-6 w-6"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path d="M208 448V320h96v128h97.6V256H464L256 64 48 256h62.4v192z"></path>
+                    </svg>
+                    </span>
+                </div>
+                </div>
+                <div class="h-50 ml-4 flex w-auto flex-col justify-center">
+                <p class="font-dm text-sm font-medium text-gray-600">Total Projects</p>
+                <h4 class="text-xl font-bold text-navy-700 dark:text-white">$2433</h4>
+                </div>
+            </div>
+            </div>
+    </div>
 
     <!-- course -->
-    <div class="mx-auto max-w-screen-sm text-center lg:mb-2 mb-2 mt-10">
+    <div class="mx-auto max-w-screen-sm text-center mb-20 lg:mb-10 mt-10" >
         <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-satu">Our
             Course</h2>
-        <p class="font-light  sm:text-xl">We use an agile approach to test
+        <p class="font-light px-16 sm:text-xl">We use an agile approach to test
             assumptions and connect with the needs of your audience early and often.</p>
     </div>
-    <div class="p-16 flex flex-wrap items-center justify-center">
+    <div class="px-16 flex flex-wrap items-center justify-center" id="course">
 
         <div
-            class="flex-shrink-0 m-5 relative overflow-hidden bg-orange-500 rounded-lg max-w-xs border dark:border-white shadow-lg">
+            class="course flex-shrink-0 m-5 relative overflow-hidden bg-orange-500 rounded-lg max-w-xs border dark:border-white shadow-lg hover:shadow-2xl">
             <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
                 style="transform: scale(1.5); opacity: 0.1;">
                 <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)"
@@ -831,20 +907,20 @@
                     style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
                 </div>
                 <img class="relative w-40"
-                    src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                    src="https://www.svgrepo.com/show/353884/html-5.svg"
                     alt="">
             </div>
             <div class="relative text-white px-6 pb-6 mt-6">
-                <span class="block opacity-75 -mb-1">Indoor</span>
+                <span class="block opacity-75 -mb-1">Frontend</span>
                 <div class="flex justify-between">
-                    <span class="block font-semibold text-xl">Peace Lily</span>
+                    <span class="block font-semibold text-xl">HTML</span>
                     <span
-                        class=" bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">$36.00</span>
+                        class=" bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Lihat</span>
                 </div>
             </div>
         </div>
         <div
-            class="flex-shrink-0 m-5 relative overflow-hidden bg-teal-500 rounded-lg max-w-xs shadow-lg border dark:border-white">
+            class="course flex-shrink-0 m-5 relative overflow-hidden bg-teal-500 rounded-lg max-w-xs shadow-lg border dark:border-white">
             <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
                 style="transform: scale(1.5); opacity: 0.1;">
                 <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)"
@@ -856,20 +932,20 @@
                     style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
                 </div>
                 <img class="relative w-40"
-                    src="https://user-images.githubusercontent.com/2805249/64069998-305de300-cc9a-11e9-8ae7-5a0fe00299f2.png"
+                    src="https://www.svgrepo.com/show/353623/css-3.svg"
                     alt="">
             </div>
             <div class="relative text-white px-6 pb-6 mt-6">
-                <span class="block opacity-75 -mb-1">Outdoor</span>
+                <span class="block opacity-75 -mb-1">Frontend</span>
                 <div class="flex justify-between">
-                    <span class="block font-semibold text-xl">Monstera</span>
+                    <span class="block font-semibold text-xl">CSS</span>
                     <span
-                        class=" bg-white rounded-full text-teal-500 text-xs font-bold px-3 py-2 leading-none flex items-center">$45.00</span>
+                        class=" bg-white rounded-full text-teal-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Lihat</span>
                 </div>
             </div>
         </div>
         <div
-            class="flex-shrink-0 m-5 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg border dark:border-white">
+            class="course flex-shrink-0 m-5 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg border dark:border-white">
             <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
                 style="transform: scale(1.5); opacity: 0.1;">
                 <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)"
@@ -881,20 +957,20 @@
                     style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
                 </div>
                 <img class="relative w-40"
-                    src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                    src="https://www.svgrepo.com/show/452045/js.svg"
                     alt="">
             </div>
             <div class="relative text-white px-6 pb-6 mt-6">
-                <span class="block opacity-75 -mb-1">Outdoor</span>
+                <span class="block opacity-75 -mb-1">Frontend</span>
                 <div class="flex justify-between">
-                    <span class="block font-semibold text-xl">Oak Tree</span>
+                    <span class="block font-semibold text-xl">Javascript</span>
                     <span
-                        class=" bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">$68.50</span>
+                        class=" bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Lihat</span>
                 </div>
             </div>
         </div>
         <div
-            class="flex-shrink-0 m-5 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg border dark:border-white">
+            class="course flex-shrink-0 m-5 relative overflow-hidden bg-red-500 rounded-lg max-w-xs shadow-lg border dark:border-white">
             <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
                 style="transform: scale(1.5); opacity: 0.1;">
                 <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)"
@@ -906,20 +982,196 @@
                     style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
                 </div>
                 <img class="relative w-40"
-                    src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png"
+                    src="https://www.svgrepo.com/show/452210/git.svg"
                     alt="">
             </div>
             <div class="relative text-white px-6 pb-6 mt-6">
-                <span class="block opacity-75 -mb-1">Outdoor</span>
+                <span class="block opacity-75 -mb-1">Frontend</span>
                 <div class="flex justify-between">
-                    <span class="block font-semibold text-xl">Oak Tree</span>
+                    <span class="block font-semibold text-xl">Git</span>
                     <span
-                        class=" bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">$68.50</span>
+                        class=" bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Lihat</span>
+                </div>
+            </div>
+        </div>
+        <div
+            class="course flex-shrink-0 m-5 relative overflow-hidden bg-orange-500 rounded-lg max-w-xs border dark:border-white shadow-lg">
+            <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
+                style="transform: scale(1.5); opacity: 0.1;">
+                <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)"
+                    fill="white" />
+                <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+            </svg>
+            <div class="relative pt-10 px-10 flex items-center justify-center">
+                <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                    style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+                </div>
+                <img class="relative w-40"
+                    src="https://www.svgrepo.com/show/353884/html-5.svg"
+                    alt="">
+            </div>
+            <div class="relative text-white px-6 pb-6 mt-6">
+                <span class="block opacity-75 -mb-1">Frontend</span>
+                <div class="flex justify-between">
+                    <span class="block font-semibold text-xl">HTML</span>
+                    <span
+                        class=" bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Lihat</span>
+                </div>
+            </div>
+        </div>
+        <div
+            class="course flex-shrink-0 m-5 relative overflow-hidden bg-teal-500 rounded-lg max-w-xs shadow-lg border dark:border-white">
+            <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
+                style="transform: scale(1.5); opacity: 0.1;">
+                <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)"
+                    fill="white" />
+                <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+            </svg>
+            <div class="relative pt-10 px-10 flex items-center justify-center">
+                <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                    style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+                </div>
+                <img class="relative w-40"
+                    src="https://www.svgrepo.com/show/353623/css-3.svg"
+                    alt="">
+            </div>
+            <div class="relative text-white px-6 pb-6 mt-6">
+                <span class="block opacity-75 -mb-1">Frontend</span>
+                <div class="flex justify-between">
+                    <span class="block font-semibold text-xl">CSS</span>
+                    <span
+                        class=" bg-white rounded-full text-teal-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Lihat</span>
+                </div>
+            </div>
+        </div>
+        <div
+            class="course flex-shrink-0 m-5 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg border dark:border-white">
+            <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
+                style="transform: scale(1.5); opacity: 0.1;">
+                <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)"
+                    fill="white" />
+                <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+            </svg>
+            <div class="relative pt-10 px-10 flex items-center justify-center">
+                <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                    style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+                </div>
+                <img class="relative w-40"
+                    src="https://www.svgrepo.com/show/452045/js.svg"
+                    alt="">
+            </div>
+            <div class="relative text-white px-6 pb-6 mt-6">
+                <span class="block opacity-75 -mb-1">Frontend</span>
+                <div class="flex justify-between">
+                    <span class="block font-semibold text-xl">Javascript</span>
+                    <span
+                        class=" bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Lihat</span>
+                </div>
+            </div>
+        </div>
+        <div
+            class="course flex-shrink-0 m-5 relative overflow-hidden bg-red-500 rounded-lg max-w-xs shadow-lg border dark:border-white">
+            <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
+                style="transform: scale(1.5); opacity: 0.1;">
+                <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)"
+                    fill="white" />
+                <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+            </svg>
+            <div class="relative pt-10 px-10 flex items-center justify-center">
+                <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                    style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+                </div>
+                <img class="relative w-40"
+                    src="https://www.svgrepo.com/show/452210/git.svg"
+                    alt="">
+            </div>
+            <div class="relative text-white px-6 pb-6 mt-6">
+                <span class="block opacity-75 -mb-1">Frontend</span>
+                <div class="flex justify-between">
+                    <span class="block font-semibold text-xl">Git</span>
+                    <span
+                        class=" bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Lihat</span>
                 </div>
             </div>
         </div>
 
     </div>
+
+
+    {{-- Footer --}}
+    <!-- component -->
+{{-- <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">  --}}
+<link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+
+<footer class="relative bg-blueGray-200 pt-8 pb-6">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-wrap text-left lg:text-left">
+      <div class="w-full lg:w-6/12 px-4">
+        <h4 class="text-3xl fonat-semibold text-blueGray-700">Let's keep in touch!</h4>
+        <h5 class="text-lg mt-0 mb-2 text-blueGray-600">
+          Find us on any of these platforms, we respond 1-2 business days.
+        </h5>
+        <div class="mt-6 lg:mb-0 mb-6">
+          <button class="dark:bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+            <i></i>
+            <i class="fab fa-twitter"></i></button><button class="dark:bg-white dark:text-black text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+            <i class="fab fa-facebook-square"></i></button><button class="dark:bg-white dark:text-black text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+            <i class="fab fa-dribbble"></i></button><button class="dark:bg-white dark:text-black text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+            <i class="fab fa-github"></i>
+
+          </button>
+        </div>
+      </div>
+      <div class="w-full lg:w-6/12 px-4">
+        <div class="flex flex-wrap items-top mb-6">
+          <div class="w-full lg:w-4/12 px-4 ml-auto">
+            <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/presentation?ref=njs-profile">About Us</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://blog.creative-tim.com?ref=njs-profile">Blog</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.github.com/creativetimofficial?ref=njs-profile">Github</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile">Free Products</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-full lg:w-4/12 px-4">
+            <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-profile">MIT License</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/terms?ref=njs-profile">Terms &amp; Conditions</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/privacy?ref=njs-profile">Privacy Policy</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/contact-us?ref=njs-profile">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="my-6 border-blueGray-300">
+    <div class="flex flex-wrap items-center md:justify-between justify-center">
+      <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+        <div class="text-sm text-blueGray-500 font-semibold py-1">
+          Copyright © <span id="get-current-year">2024</span><a href="https://candrakirana.netlify.app" class="text-blueGray-500 hover:text-gray-800" target="_blank"> Blogs By Chandra IT
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 
 
 

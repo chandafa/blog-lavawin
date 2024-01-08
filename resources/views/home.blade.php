@@ -7,6 +7,7 @@
     @vite(['resources/css/app.css','resources/js/app.js'])
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Home | Blog Chan</title>
+    <link href="https://www.logolynx.com/images/logolynx/f4/f40d4ad97b9cb450abc35af8e7359f40.png" rel="icon" />
 </head>
 
 <body>
@@ -18,7 +19,7 @@
             <nav
                 class="bg-dark dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
                 <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
                         <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo">
                         <span
                             class="self-center text-2xl font-bold whitespace-nowrap dark:text-white">Blog CK</span>
@@ -52,16 +53,20 @@
                                     aria-current="page">Home</a>
                             </li>
                             <li>
+                                <a href="#about"
+                                    class="block py-2 px-3 dark:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                            </li>
+                            <li>
                                 <a href="#blog"
                                     class="block py-2 px-3 dark:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Blog</a>
                             </li>
                             <li>
-                                <a href="#"
-                                    class="block py-2 px-3 dark:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+                                <a href="#static"
+                                    class="block py-2 px-3 dark:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Static</a>
                             </li>
                             <li>
-                                <a href="#"
-                                    class="block py-2 px-3 dark:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                                <a href="#belajar"
+                                    class="block py-2 px-3 dark:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Course</a>
                             </li>
                             <button id="theme-toggle" type="button"
                                 class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5">
@@ -134,8 +139,8 @@
     </div>
 
 
- <!-- features -->
-    <div class="dark:bg-gray-900 py-24 sm:py-32">
+ <!-- About -->
+    <div class="dark:bg-gray-900 py-24 sm:py-32" id="about">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
         <div class="lg:pr-4">
@@ -197,14 +202,14 @@
     <!-- Blog section 2 -->
     <!-- component -->
     <!-- This is an example component -->
-    <div class="mx-auto max-w-screen-sm text-center lg:mb-16">
+    <div class="mx-auto max-w-screen-sm text-center lg:mb-16" id="blog">
         <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-satu">Our
             Blog</h2>
         <p class="font-light px-10 sm:text-xl">We use an agile approach to test
             assumptions and connect with the needs of your audience early and often.</p>
     </div>
 
-    <section class="flex flex-row flex-wrap mx-auto px-10" >
+    <section class="flex flex-row flex-wrap mx-auto px-10"">
         <!-- Card Component -->
         <div class="transition-all duration-150 flex w-full py-6 md:w-1/2 lg:w-1/3 lg:px-4 md:px-4">
             <div
@@ -720,10 +725,8 @@
 
 
 
-    <!-- Team Section -->
-
-
-    <div class="flex flex-col justify-center items-center py-40">
+    <!-- Static Section -->
+    <div class="flex flex-col justify-center items-center py-40" id="static">
         <div class="mx-auto max-w-screen-sm text-center lg:mb-16">
             <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-satu">Our
                 Statistik</h2>
@@ -885,7 +888,7 @@
     </div>
 
     <!-- course -->
-    <div class="mx-auto max-w-screen-sm text-center mb-20 lg:mb-10 mt-10" >
+    <div class="mx-auto max-w-screen-sm text-center mb-20 lg:mb-10 mt-10" id="belajar">
         <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-satu">Our
             Course</h2>
         <p class="font-light px-16 sm:text-xl">We use an agile approach to test
