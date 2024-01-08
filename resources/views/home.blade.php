@@ -196,16 +196,16 @@
     <!-- Blog section 2 -->
     <!-- component -->
     <!-- This is an example component -->
-    <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+    <div class="mx-auto max-w-screen-sm text-center lg:mb-16">
         <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-satu">Our
             Blog</h2>
-        <p class="font-light  sm:text-xl">We use an agile approach to test
+        <p class="font-light px-10 sm:text-xl">We use an agile approach to test
             assumptions and connect with the needs of your audience early and often.</p>
     </div>
 
-    <section class="flex flex-row flex-wrap mx-auto px-24">
+    <section class="flex flex-row flex-wrap mx-auto px-10" >
         <!-- Card Component -->
-        <div class="transition-all duration-150 flex w-full px-4 py-6 md:w-1/2 lg:w-1/3">
+        <div class="transition-all duration-150 flex w-full py-6 md:w-1/2 lg:w-1/3 lg:px-4 md:px-4">
             <div
                 class="flex flex-col items-stretch min-h-full pb-4 mb-6 transition-all duration-150 dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl">
                 <div class="md:flex-shrink-0">
@@ -285,7 +285,7 @@
             </div>
         </div>
         <!-- Card Component -->
-        <div class="transition-all duration-150 flex w-full px-4 py-6 md:w-1/2 lg:w-1/3">
+        <div class="transition-all duration-150 flex w-full py-6 md:w-1/2 lg:w-1/3 lg:px-4 md:px-4">
             <div
                 class="flex flex-col items-stretch min-h-full pb-4 mb-6 transition-all duration-150 dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl">
                 <div class="md:flex-shrink-0">
@@ -365,7 +365,7 @@
             </div>
         </div>
         <!-- Card Component -->
-        <div class="transition-all duration-150 flex w-full px-4 py-6 md:w-1/2 lg:w-1/3">
+        <div class="transition-all duration-150 flex w-full py-6 md:w-1/2 lg:w-1/3 lg:px-4 md:px-4">
             <div
                 class="flex flex-col items-stretch min-h-full pb-4 mb-6 transition-all duration-150 dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl">
                 <div class="md:flex-shrink-0">
@@ -445,7 +445,7 @@
             </div>
         </div>
         <!-- Card Component -->
-        <div class="transition-all duration-150 flex w-full px-4 py-6 md:w-1/2 lg:w-1/3">
+        <div class="transition-all duration-150 flex w-full py-6 md:w-1/2 lg:w-1/3 lg:px-4 md:px-4">
             <div
                 class="flex flex-col items-stretch min-h-full pb-4 mb-6 transition-all duration-150 dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl">
                 <div class="md:flex-shrink-0">
@@ -525,7 +525,7 @@
             </div>
         </div>
         <!-- Card Component -->
-        <div class="transition-all duration-150 flex w-full px-4 py-6 md:w-1/2 lg:w-1/3">
+        <div class="transition-all duration-150 flex w-full py-6 md:w-1/2 lg:w-1/3 lg:px-4 md:px-4">
             <div
                 class="flex flex-col items-stretch min-h-full pb-4 mb-6 transition-all duration-150 dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl">
                 <div class="md:flex-shrink-0">
@@ -605,7 +605,7 @@
             </div>
         </div>
         <!-- Card Component -->
-        <div class="transition-all duration-150 flex w-full px-4 py-6 md:w-1/2 lg:w-1/3">
+        <div class="transition-all duration-150 flex w-full py-6 md:w-1/2 lg:w-1/3 lg:px-4 md:px-4">
             <div
                 class="flex flex-col items-stretch min-h-full pb-4 mb-6 transition-all duration-150 dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl">
                 <div class="md:flex-shrink-0">
@@ -685,33 +685,34 @@
             </div>
         </div>
 
-        <nav aria-label="Page navigation example" class="mx-auto">
-            <ul class="inline-flex -space-x-px text-sm">
-              <li>
-                <a href="/" class="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Previous</a>
-              </li>
-              <li>
-                <a href="<?= url('pages1'); ?>" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">1</a>
-              </li>
-              <li>
-                <a href="<?= url('pages2'); ?>" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">2</a>
-              </li>
-              <li>
-                <a href="<?= url('pages3'); ?>" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">3</a>
-              </li>
-
-              <li>
-                <a href="<?= url('pages4'); ?>" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">4</a>
-              </li>
-              <li>
-                <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">5</a>
-              </li>
-              <li>
-                <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Next</a>
-              </li>
-            </ul>
-          </nav>
     </section>
+    <nav aria-label="Page navigation example" class="mx-auto max-w-screen-sm flex justify-center mt-8 mb-10">
+        <ul class="inline-flex -space-x-px text-sm">
+          <li>
+            <a href="/" class="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Previous</a>
+          </li>
+          <li>
+            <a href="<?= url('pages1'); ?>" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">1</a>
+          </li>
+          <li>
+            <a href="<?= url('pages2'); ?>" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">2</a>
+          </li>
+          <li>
+            <a href="<?= url('pages3'); ?>" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">3</a>
+          </li>
+
+          <li>
+            <a href="<?= url('pages4'); ?>" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">4</a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">5</a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Next</a>
+          </li>
+        </ul>
+      </nav>
+
 
 
 
@@ -719,197 +720,180 @@
 
 
     <!-- Team Section -->
-    <section class="bg-dark dark:bg-gray-900" id="blog">
-        <div class=" py-8 px-28 mx-auto max-w-screen-xl lg:py-16 lg:px-24">
-            <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-                <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-satu">Our
-                    Team</h2>
-                <p class="font-light  sm:text-xl">We use an agile approach to test
-                    assumptions and connect with the needs of your audience early and often.</p>
-            </div>
-            <div class="grid gap-8 lg:grid-cols-2 ">
-                <article
-                    class="p-6 bg-dark  dark:bg-gray-800 rounded-lg border border-gray-200 shadow-md  dark:border-gray-700">
-                    <div class="flex justify-between items-center mb-5 text-gray-500">
-                        <span
-                            class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
-                            <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z">
-                                </path>
-                            </svg>
-                            Tutorial
-                        </span>
-                        <span class="text-sm">14 days ago</span>
-                    </div>
-                    <h2 class="mb-2 text-2xl font-bold tracking-tight  dark:text-white"><a href="#">How to
-                            quickly deploy a static website</a></h2>
-                    <p class="mb-5 font-light  dark:text-white">Static websites are now used to
-                        bootstrap lots of websites and are becoming the basis for a variety of tools that even influence
-                        both web designers and developers influence both web designers and developers.</p>
-                    <div class="flex justify-between items-center">
-                        <div class="flex items-center space-x-4">
-                            <img class="w-7 h-7 rounded-full"
-                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
-                                alt="Jese Leos avatar" />
-                            <span class="font-medium dark:text-white">
-                                Jese Leos
-                            </span>
-                        </div>
-                        <a href="#"
-                            class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
-                            Read more
-                            <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-                <article
-                    class="p-6 bg-dark rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-                    <div class="flex justify-between items-center mb-5 text-gray-500">
-                        <span
-                            class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
-                            <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z"
-                                    clip-rule="evenodd"></path>
-                                <path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path>
-                            </svg>
-                            Article
-                        </span>
-                        <span class="text-sm">14 days ago</span>
-                    </div>
-                    <h2 class="mb-2 text-2xl font-bold tracking-tight  dark:text-white"><a href="#">Our
-                            first project with React</a></h2>
-                    <p class="mb-5 font-light  dark:text-white">Static websites are now used to
-                        bootstrap lots of websites and are becoming the basis for a variety of tools that even influence
-                        both web designers and developers influence both web designers and developers.</p>
-                    <div class="flex justify-between items-center">
-                        <div class="flex items-center space-x-4">
-                            <img class="w-7 h-7 rounded-full"
-                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
-                                alt="Bonnie Green avatar" />
-                            <span class="font-medium dark:text-white">
-                                Bonnie Green
-                            </span>
-                        </div>
-                        <a href="#"
-                            class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
-                            Read more
-                            <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-                <article
-                    class="p-6 bg-dark dark:bg-gray-800 rounded-lg border border-gray-200 shadow-md  dark:border-gray-700">
-                    <div class="flex justify-between items-center mb-5 text-gray-500">
-                        <span
-                            class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
-                            <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z">
-                                </path>
-                            </svg>
-                            Tutorial
-                        </span>
-                        <span class="text-sm">14 days ago</span>
-                    </div>
-                    <h2 class="mb-2 text-2xl font-bold tracking-tight dark:text-white"><a href="#">How
-                            to
-                            quickly deploy a static website</a></h2>
-                    <p class="mb-5 font-light  dark:text-white">Static websites are now used to
-                        bootstrap lots of websites and are becoming the basis for a variety of tools that even influence
-                        both web designers and developers influence both web designers and developers.</p>
-                    <div class="flex justify-between items-center">
-                        <div class="flex items-center space-x-4">
-                            <img class="w-7 h-7 rounded-full"
-                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
-                                alt="Jese Leos avatar" />
-                            <span class="font-medium dark:text-white">
-                                Jese Leos
-                            </span>
-                        </div>
-                        <a href="#"
-                            class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
-                            Read more
-                            <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-                <article
-                    class="p-6 bg-dark rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-                    <div class="flex justify-between items-center mb-5 text-gray-500">
-                        <span
-                            class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
-                            <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z"
-                                    clip-rule="evenodd"></path>
-                                <path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path>
-                            </svg>
-                            Article
-                        </span>
-                        <span class="text-sm">14 days ago</span>
-                    </div>
-                    <h2 class="mb-2 text-2xl font-bold tracking-tight  dark:text-white"><a href="#">Our
-                            first project with React</a></h2>
-                    <p class="mb-5 font-light  dark:text-white">Static websites are now used to
-                        bootstrap lots of websites and are becoming the basis for a variety of tools that even influence
-                        both web designers and developers influence both web designers and developers.</p>
-                    <div class="flex justify-between items-center">
-                        <div class="flex items-center space-x-4">
-                            <img class="w-7 h-7 rounded-full"
-                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
-                                alt="Bonnie Green avatar" />
-                            <span class="font-medium dark:text-white">
-                                Bonnie Green
-                            </span>
-                        </div>
-                        <a href="#"
-                            class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
-                            Read more
-                            <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-            </div>
+
+
+    <div class="flex flex-col justify-center items-center py-40">
+        <div class="mx-auto max-w-screen-sm text-center lg:mb-16">
+            <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-satu">Our
+                Statistik</h2>
+            <p class="font-light px-10 sm:text-xl">We use an agile approach to test
+                assumptions and connect with the needs of your audience early and often.</p>
         </div>
-    </section>
+        <div class="min-w-[375px] md:min-w-[700px] xl:min-w-[800px] mt-3 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 3xl:grid-cols-6">
+            <div class="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200  bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
+                <div class="ml-[18px] flex h-[90px] w-auto flex-row items-center">
+                <div class="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
+                    <span class="flex items-center text-brand-500 dark:text-white">
+                    <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        class="h-7 w-7"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path d="M4 9h4v11H4zM16 13h4v7h-4zM10 4h4v16h-4z"></path>
+                    </svg>
+                    </span>
+                </div>
+                </div>
+                <div class="h-50 ml-4 flex w-auto flex-col justify-center">
+                <p class="font-dm text-sm font-medium text-gray-600">Earnings</p>
+                <h4 class="text-xl font-bold text-navy-700 dark:text-white">$340.5</h4>
+                </div>
+            </div>
+            <div class="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200  bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
+                <div class="ml-[18px] flex h-[90px] w-auto flex-row items-center">
+                <div class="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
+                    <span class="flex items-center text-brand-500 dark:text-white">
+                    <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        class="h-6 w-6"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path d="M298.39 248a4 4 0 002.86-6.8l-78.4-79.72a4 4 0 00-6.85 2.81V236a12 12 0 0012 12z"></path>
+                        <path d="M197 267a43.67 43.67 0 01-13-31v-92h-72a64.19 64.19 0 00-64 64v224a64 64 0 0064 64h144a64 64 0 0064-64V280h-92a43.61 43.61 0 01-31-13zm175-147h70.39a4 4 0 002.86-6.8l-78.4-79.72a4 4 0 00-6.85 2.81V108a12 12 0 0012 12z"></path>
+                        <path d="M372 152a44.34 44.34 0 01-44-44V16H220a60.07 60.07 0 00-60 60v36h42.12A40.81 40.81 0 01231 124.14l109.16 111a41.11 41.11 0 0111.83 29V400h53.05c32.51 0 58.95-26.92 58.95-60V152z"></path>
+                    </svg>
+                    </span>
+                </div>
+                </div>
+                <div class="h-50 ml-4 flex w-auto flex-col justify-center">
+                <p class="font-dm text-sm font-medium text-gray-600">Spend this month</p>
+                <h4 class="text-xl font-bold text-navy-700 dark:text-white">$642.39</h4>
+                </div>
+            </div>
+            <div class="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200  bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
+                <div class="ml-[18px] flex h-[90px] w-auto flex-row items-center">
+                <div class="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
+                    <span class="flex items-center text-brand-500 dark:text-white">
+                    <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        class="h-7 w-7"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path d="M4 9h4v11H4zM16 13h4v7h-4zM10 4h4v16h-4z"></path>
+                    </svg>
+                    </span>
+                </div>
+                </div>
+                <div class="h-50 ml-4 flex w-auto flex-col justify-center">
+                <p class="font-dm text-sm font-medium text-gray-600">Sales</p>
+                <h4 class="text-xl font-bold text-navy-700 dark:text-white">$574.34</h4>
+                </div>
+            </div>
+            <div class="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200  bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
+                <div class="ml-[18px] flex h-[90px] w-auto flex-row items-center">
+                <div class="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
+                    <span class="flex items-center text-brand-500 dark:text-white">
+                    <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        class="h-6 w-6"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"></path>
+                    </svg>
+                    </span>
+                </div>
+                </div>
+                <div class="h-50 ml-4 flex w-auto flex-col justify-center">
+                <p class="font-dm text-sm font-medium text-gray-600">Your Balance</p>
+                <h4 class="text-xl font-bold text-navy-700 dark:text-white">$1,000</h4>
+                </div>
+            </div>
+            <div class="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200  bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
+                <div class="ml-[18px] flex h-[90px] w-auto flex-row items-center">
+                <div class="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
+                    <span class="flex items-center text-brand-500 dark:text-white">
+                    <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        class="h-7 w-7"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path d="M4 9h4v11H4zM16 13h4v7h-4zM10 4h4v16h-4z"></path>
+                    </svg>
+                    </span>
+                </div>
+                </div>
+                <div class="h-50 ml-4 flex w-auto flex-col justify-center">
+                <p class="font-dm text-sm font-medium text-gray-600">New Tasks</p>
+                <h4 class="text-xl font-bold text-navy-700 dark:text-white">145</h4>
+                </div>
+            </div>
+            <div class="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200  bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
+                <div class="ml-[18px] flex h-[90px] w-auto flex-row items-center">
+                <div class="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
+                    <span class="flex items-center text-brand-500 dark:text-white">
+                    <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        class="h-6 w-6"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path d="M208 448V320h96v128h97.6V256H464L256 64 48 256h62.4v192z"></path>
+                    </svg>
+                    </span>
+                </div>
+                </div>
+                <div class="h-50 ml-4 flex w-auto flex-col justify-center">
+                <p class="font-dm text-sm font-medium text-gray-600">Total Projects</p>
+                <h4 class="text-xl font-bold text-navy-700 dark:text-white">$2433</h4>
+                </div>
+            </div>
+            </div>
+    </div>
 
     <!-- course -->
-    <div class="mx-auto max-w-screen-sm text-center lg:mb-2 mb-2 mt-10">
+    <div class="mx-auto max-w-screen-sm text-center mb-20 lg:mb-10 mt-10" >
         <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-satu">Our
             Course</h2>
-        <p class="font-light  sm:text-xl">We use an agile approach to test
+        <p class="font-light px-16 sm:text-xl">We use an agile approach to test
             assumptions and connect with the needs of your audience early and often.</p>
     </div>
-    <div class="p-16 flex flex-wrap items-center justify-center">
+    <div class="px-16 flex flex-wrap items-center justify-center" id="course">
 
         <div
-            class="flex-shrink-0 m-5 relative overflow-hidden bg-orange-500 rounded-lg max-w-xs border dark:border-white shadow-lg">
+            class="course flex-shrink-0 m-5 relative overflow-hidden bg-orange-500 rounded-lg max-w-xs border dark:border-white shadow-lg hover:shadow-2xl">
             <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
                 style="transform: scale(1.5); opacity: 0.1;">
                 <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)"
@@ -934,7 +918,7 @@
             </div>
         </div>
         <div
-            class="flex-shrink-0 m-5 relative overflow-hidden bg-teal-500 rounded-lg max-w-xs shadow-lg border dark:border-white">
+            class="course flex-shrink-0 m-5 relative overflow-hidden bg-teal-500 rounded-lg max-w-xs shadow-lg border dark:border-white">
             <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
                 style="transform: scale(1.5); opacity: 0.1;">
                 <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)"
@@ -959,7 +943,7 @@
             </div>
         </div>
         <div
-            class="flex-shrink-0 m-5 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg border dark:border-white">
+            class="course flex-shrink-0 m-5 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg border dark:border-white">
             <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
                 style="transform: scale(1.5); opacity: 0.1;">
                 <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)"
@@ -984,7 +968,107 @@
             </div>
         </div>
         <div
-            class="flex-shrink-0 m-5 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg border dark:border-white">
+            class="course flex-shrink-0 m-5 relative overflow-hidden bg-red-500 rounded-lg max-w-xs shadow-lg border dark:border-white">
+            <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
+                style="transform: scale(1.5); opacity: 0.1;">
+                <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)"
+                    fill="white" />
+                <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+            </svg>
+            <div class="relative pt-10 px-10 flex items-center justify-center">
+                <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                    style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+                </div>
+                <img class="relative w-40"
+                    src="https://www.svgrepo.com/show/452210/git.svg"
+                    alt="">
+            </div>
+            <div class="relative text-white px-6 pb-6 mt-6">
+                <span class="block opacity-75 -mb-1">Frontend</span>
+                <div class="flex justify-between">
+                    <span class="block font-semibold text-xl">Git</span>
+                    <span
+                        class=" bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Lihat</span>
+                </div>
+            </div>
+        </div>
+        <div
+            class="course flex-shrink-0 m-5 relative overflow-hidden bg-orange-500 rounded-lg max-w-xs border dark:border-white shadow-lg">
+            <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
+                style="transform: scale(1.5); opacity: 0.1;">
+                <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)"
+                    fill="white" />
+                <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+            </svg>
+            <div class="relative pt-10 px-10 flex items-center justify-center">
+                <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                    style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+                </div>
+                <img class="relative w-40"
+                    src="https://www.svgrepo.com/show/353884/html-5.svg"
+                    alt="">
+            </div>
+            <div class="relative text-white px-6 pb-6 mt-6">
+                <span class="block opacity-75 -mb-1">Frontend</span>
+                <div class="flex justify-between">
+                    <span class="block font-semibold text-xl">HTML</span>
+                    <span
+                        class=" bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Lihat</span>
+                </div>
+            </div>
+        </div>
+        <div
+            class="course flex-shrink-0 m-5 relative overflow-hidden bg-teal-500 rounded-lg max-w-xs shadow-lg border dark:border-white">
+            <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
+                style="transform: scale(1.5); opacity: 0.1;">
+                <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)"
+                    fill="white" />
+                <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+            </svg>
+            <div class="relative pt-10 px-10 flex items-center justify-center">
+                <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                    style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+                </div>
+                <img class="relative w-40"
+                    src="https://www.svgrepo.com/show/353623/css-3.svg"
+                    alt="">
+            </div>
+            <div class="relative text-white px-6 pb-6 mt-6">
+                <span class="block opacity-75 -mb-1">Frontend</span>
+                <div class="flex justify-between">
+                    <span class="block font-semibold text-xl">CSS</span>
+                    <span
+                        class=" bg-white rounded-full text-teal-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Lihat</span>
+                </div>
+            </div>
+        </div>
+        <div
+            class="course flex-shrink-0 m-5 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg border dark:border-white">
+            <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
+                style="transform: scale(1.5); opacity: 0.1;">
+                <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)"
+                    fill="white" />
+                <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+            </svg>
+            <div class="relative pt-10 px-10 flex items-center justify-center">
+                <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                    style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+                </div>
+                <img class="relative w-40"
+                    src="https://www.svgrepo.com/show/452045/js.svg"
+                    alt="">
+            </div>
+            <div class="relative text-white px-6 pb-6 mt-6">
+                <span class="block opacity-75 -mb-1">Frontend</span>
+                <div class="flex justify-between">
+                    <span class="block font-semibold text-xl">Javascript</span>
+                    <span
+                        class=" bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Lihat</span>
+                </div>
+            </div>
+        </div>
+        <div
+            class="course flex-shrink-0 m-5 relative overflow-hidden bg-red-500 rounded-lg max-w-xs shadow-lg border dark:border-white">
             <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
                 style="transform: scale(1.5); opacity: 0.1;">
                 <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)"

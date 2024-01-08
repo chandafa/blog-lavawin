@@ -66,3 +66,7 @@ header nav {
     transform: rotate(250deg);
     transition-duration: 1.5s;
 }
+
+#course .course:hover {
+    box-shadow: 0px 0px 10px blueviolet;
+}
