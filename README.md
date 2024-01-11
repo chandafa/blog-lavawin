@@ -21,6 +21,7 @@ or
 3. cp .env.example
    
 4. edit file .env
+   
     echo DB_CONNECTION=mysql
     echo DB_HOST=127.0.0.1
     echo DB_PORT=3306
@@ -28,13 +29,13 @@ or
     echo DB_USERNAME=root
     echo DB_PASSWORD=
    
-5. create database name "lavawin"
+6. create database name "lavawin"
    
-6. open your terminal and run "php artisan:migrate
+7. open your terminal and run "php artisan:migrate
 
-7. composer install
+8. composer install
 
-8. npm install
+9. npm install
 
 ## Using
 Terminal 1 :
