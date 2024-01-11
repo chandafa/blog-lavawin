@@ -6,25 +6,25 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    public function home()
-    {
-        return view('home');
-    }
+    // public function home()
+    // {
+    //     return view('home');
+    // }
 
     public function about()
     {
         return view('about');
     }
 
-    public function login()
+    public function admin()
     {
-        return view('login');
+        return view('admin.admin');
     }
 
-    public function register()
-    {
-        return view('register');
-    }
+    // public function register()
+    // {
+    //     return view('register');
+    // }
 
     public function pages1()
     {

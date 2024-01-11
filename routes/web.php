@@ -19,11 +19,17 @@ Route::get('/', function () {
 });
 
 Route::get('/about', [PageController::class, 'about']);
-Route::get('/login', [PageController::class, 'login']);
+// Route::get('/login', [PageController::class, 'login']);
 Route::get('/register', [PageController::class, 'register']);
 Route::get('/pages1', [PageController::class, 'pages1']);
 Route::get('/pages2', [PageController::class, 'pages2']);
 Route::get('/pages3', [PageController::class, 'pages3']);
 Route::get('/pages4', [PageController::class, 'pages4']);
+Route::get('/dashboard', [PageController::class, 'dashboard']);
+Route::get('/admin', [PageController::class, 'admin']);
+// Route::get('/', [PageController::class, 'home']);
 
-// Route::get('/halaman', 'ContohController@halaman')->name('halaman');
+
+Auth::routes();
+
+Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'dashboard'])->name('dashboard');
