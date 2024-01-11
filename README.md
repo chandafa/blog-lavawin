@@ -23,10 +23,15 @@ or
 4. edit file .env
    
     echo DB_CONNECTION=mysql
+   <br>
     echo DB_HOST=127.0.0.1
+   <br>
     echo DB_PORT=3306
+   <br>
     echo DB_DATABASE=lavawin
+   <br>
     echo DB_USERNAME=root
+   <br>
     echo DB_PASSWORD=
    
 6. create database name "lavawin"
