@@ -19,10 +19,22 @@ or
 2. cd blog-lavawin
 
 3. cp .env.example
+   
+4. edit file .env
+        echo DB_CONNECTION=mysql
+        echo DB_HOST=127.0.0.1
+        echo DB_PORT=3306
+        echo DB_DATABASE=lavawin
+        echo DB_USERNAME=root
+        echo DB_PASSWORD=
+   
+5. create database name "lavawin"
+   
+6. open your terminal and run "php artisan:migrate
 
-4. composer install
+7. composer install
 
-5. npm install
+8. npm install
 
 ## Using
 Terminal 1 :
